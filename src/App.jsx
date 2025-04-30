@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';  // Import the Navbar
 import FormPage from './components/FormPage';
 import Results from './components/Results';
 import TravelList from './components/TravelList.jsx';
+import RecommendationsPage from './components/RecommendationsPage';
 import Chatbot from './components/Chatbot';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -21,9 +22,11 @@ function App() {
         <Route path="/travel_list" element={<TravelList />} />
         <Route path="/form" element={<FormPage />} />  {/* Corrected path */}
         <Route path="/results" element={<Results />} />
+        <Route path="/recommendations/:location" element={<RecommendationsPage />} />
       </Routes>
      
       </div>
+      
       <Chatbot /> 
      
     </Router>

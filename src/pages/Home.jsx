@@ -9,7 +9,7 @@ const Home = () => {
       };
 
   return (
-    <div className="min-h-[70vh] bg-gradient-to-br from-blue-600 via-purple-600 to-pink-400 flex flex-col justify-center items-center text-white px-4 py-10 mt-[-10px] ">
+    <div className="min-h-[70vh] bg-gradient-to-br from-purple-700 via-pink-400  to-blue-600 flex flex-col justify-center items-center text-white px-4 py-10 mt-[-10px] ">
       <div className="text-center">
         <h1 className="text-5xl font-bold drop-shadow-lg">Welcome to TravelApp</h1>
         <p className="mt-4 text-xl font-light">Your Personalized Travel Guide to Adventures</p>

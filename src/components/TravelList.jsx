@@ -53,7 +53,7 @@ const TravelList = () => {
   };
 
   return (
-    <div className="min-h-[90.9vh] bg-gradient-to-br from-blue-600 via-purple-500 to-pink-400 py-10 px-4">
+    <div className="min-h-[90.9vh] bg-gradient-to-br from-purple-700 via-pink-400  to-blue-600 py-10 px-4">
       <h2 className="text-3xl font-bold text-center text-white mb-10">
         Explore Our Travel Recommendations
       </h2>
